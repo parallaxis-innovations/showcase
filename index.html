@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            
+            <div class="header-content">
+                <h1 class="main-title">
+                    <span class="title-gradient">Parallaxis Dev</span> Portfolio
+                </h1>
+                <p class="subtitle">Explore our collection of modern web applications and components</p>
+            </div>
+            <div class="theme-toggle" id="themeToggle">
+                <span class="theme-icon">🌙</span>
+            </div>
+            <div class="header-decoration"></div>
+        </header>
+
+        <!-- Projects Grid -->
+        <main class="projects-container">
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025  <span class="title-gradient">Parallaxis Dev Portfolio</span>. All rights reserved.</p>
+            <p>Designed and Developed by <a href="https://parallaxis.in" class="title-gradient" target="_blank" rel="noopener noreferrer">Parallaxis Innovations</a></p>
+        </footer>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
